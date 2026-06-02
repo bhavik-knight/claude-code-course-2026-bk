@@ -168,6 +168,30 @@ The one sentence explanation is the whole assignment. "I added more context" is 
 
 ---
 
+## Week 4 assignment
+
+This week is about how Claude shows up in the real world — the wider tool ecosystem, what changes when code leaves your laptop, and the question underneath all of it: now that you can see how this works, where do *you* stand on using it?
+
+### What to submit
+Push one commit to your fork:
+
+**A short reflection — `traces/week-4.md`**
+
+- **Where you land on AI** — Now that you've seen under the hood (no magic, just a wrapper around a model), write where you honestly stand on using AI like this. Do you think you can use it ethically? What are your own conditions for that? Then get concrete: how would you actually use it in your current work or a personal project? *(There's no right answer and your stance isn't graded — if you have reservations, write the reservations.)*
+- **One thing that clicked** — Point to one thing in devlens you understand now that you didn't four weeks ago: the messages array, the agent loop, a tool, the handler — whatever finally made sense. A couple of sentences is plenty.
+- Commit: `git commit -m "feat: add week-4 reflection"`
+
+A few honest paragraphs is the whole assignment. No code to edit this week.
+
+### Optional stretch
+Want to take devlens further? Neither is required:
+- **Deploy it** — connect your fork to a host (e.g. Vercel), add your API key as an environment variable (never in the code), and get a live URL. Add the URL to your README.
+- **Connect an MCP server** — extend devlens past its four built-in tools and watch the tools array grow.
+
+> **Why an opinion, not just code?** For four weeks the test has been "can you explain it." This week adds the other half: can you decide what to *do* with it? Anyone can use Claude. The developer worth hiring is the one who understands the layer they're working at, owns the decisions, and can say clearly where they draw their own lines. That's the thing a tutorial can't give you — and it's what you've been building all along.
+
+---
+
 ## Project structure
 
 ```
@@ -182,7 +206,7 @@ devlens/
 ├── .claude/
 │   └── skills/   # Your custom skills live here
 ├── reflections/  # Your week 2 skill reflection
-├── traces/       # Your week 3 failure trace
+├── traces/       # Your week 3 trace and week 4 reflection
 └── .env          # Your API key (never commit this)
 ```
 
