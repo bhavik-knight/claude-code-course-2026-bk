@@ -23,6 +23,7 @@ npm install -g @anthropic-ai/claude-code
 **VS Code** (recommended editor)
 - Download from [code.visualstudio.com](https://code.visualstudio.com)
 - Install the **Claude Code extension** from the VS Code marketplace
+- New to the extension? See [docs/vscode-extension.md](docs/vscode-extension.md) for a step-by-step guide
 
 ---
 
