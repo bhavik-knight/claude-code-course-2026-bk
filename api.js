@@ -2,6 +2,10 @@
  * This module defines the main chat function that interacts with the Anthropic API. 
  * It maintains a conversation history, handles tool calls, and constructs the system prompt 
  * based on the CLAUDE.md file in the project directory.
+ * 
+ * After I populated CLAUDE.md with relevant information myself, I found that Claude was able to answer questions about the codebase such that I can understand it better; suitable to my learning style. For example, I like to be taught in levels from a 5-year old level upto a university student level, and Claude was able to adapt its explanations accordingly when I asked follow-up questions. 
+ * 
+ * I also found that the tool calls were useful for getting specific information from the codebase that Claude could then use to answer my questions more effectively. Overall, this module is responsible for orchestrating the conversation between the user and Claude, ensuring that the right context is provided and that tool calls are handled appropriately.
  */
 
 
